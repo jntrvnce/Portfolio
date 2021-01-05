@@ -1,0 +1,75 @@
+body {
+  background-color: #98C1D9;
+  padding: 40px;
+}
+/* applying CSS elements to multiple groups*/
+.header, h2, p, h3, ul {
+  height: auto;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center
+
+}
+/* changing the hr element*/
+hr {
+  border-top: 4px solid black;
+}
+
+/* keeping uniformity between the header and footer by grouping*/
+.header, footer {
+  padding: 20px;
+  background: #355070;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18pt;
+}
+
+ul {
+  font-size: 15pt;
+}
+
+/* Create three equal columns that floats next to each other and assigning them using class making sure the total =100% per column*/
+.column {
+  float: left;
+  width: 33.33%;
+  column-gap: 20px;
+
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(17, 0, 255);
+}
+
+/* selected link */
+a:active {
+  color: rgb(243, 19, 206);
+}
