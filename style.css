@@ -1,12 +1,14 @@
 body {
   background-color: #98C1D9;
   padding: 40px;
+  margin: 2px;
 }
 /* applying CSS elements to multiple groups*/
-.header, h2, p, h3, ul {
+.header, h2, p, h3, ul, ol {
   height: auto;
   font-family: 'Courier New', Courier, monospace;
-  text-align: center
+  text-align: center;
+  margin: 2px;
 
 }
 /* changing the hr element*/
